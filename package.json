@@ -1,13 +1,9 @@
 {
   "name": "dynamodb-admin",
-  "version": "1.11.0",
+  "version": "2.0.2",
   "description": "GUI for DynamoDB. Useful for local development.",
   "main": "index.js",
   "bin": "./bin/dynamodb-admin.js",
-  "engines": {
-    "node": "6.4.0",
-    "npm": "3.10.3"
-  },
   "scripts": {
     "test": "jest"
   },
@@ -28,6 +24,7 @@
   "dependencies": {
     "aws-sdk": "^2.7.27",
     "body-parser": "^1.15.2",
+    "cli-color": "^1.2.0",
     "ejs": "^2.5.1",
     "errorhandler": "^1.4.3",
     "es6-promisify": "^4.1.0",
